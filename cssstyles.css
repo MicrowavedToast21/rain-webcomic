@@ -2,8 +2,6 @@
 body{
     background:linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
     color: purple;
-
-
 }
 .moved-text {
 
@@ -163,4 +161,8 @@ hr.new1{
      color: palevioletred;
      font-size: 50px;
      margin-top: 80px;
+ }
+
+ :root {
+     cursor: url("media/transcursorwebsite.png"), auto
  }
