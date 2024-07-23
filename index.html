@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="media/raintranswebcomic.jpeg" type="rainicon">
         <title>RAIN</title>
+        <link href="cssstyles.css" rel="stylesheet"/>
         <!--<meta name="description" content="TODO Description. This profile-page is a homage to the earliest web designers who were working without CSS & JS which were only invented in 1994/5."/> <-- Meta description tips: https://www.coderseo.com/meta-description-generator -->
         <!-- <meta name="robots" content="noindex"> robots.txt file overrides-->
         <base target="_blank"> <!-- only keep with footer script excluding internal links -->
@@ -12,76 +13,6 @@
             <!-- TODO uncomment below once created New File called styles.css 
              style lists to have more space, paragraphs more margin, link color different -->
             <!-- <link rel="stylesheet" href="styles.css"> -->
-        <style>
-            /* or you could first try add internal CSS here */
-            body{
-                background:linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
-                color: purple;
-            }
-            .moved-text {
-
-                margin-left: 600px; /* Adjust the margin as needed */
-
-                padding-top: 30px; /* Adjust the padding as needed */
-
-                position: relative; /* Allows for more positioning options */
-
-                top: 0.1px; /* Adjust the top position as needed */
-                border-radius: 25px;
-                background: rgba(174, 16, 220, 0.15);
-                padding: 20px;
-                width: 150px;
-                height: 100px;
-
-            }
-            h1 {
-                font-size: 70px;
-            }
-            #image1 {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 30%;
-            }
-            .moved-text2 {
-
-                margin-left: 300px; /* Adjust the margin as needed */
-
-                padding-top: 30px; /* Adjust the padding as needed */
-
-                position: relative; /* Allows for more positioning options */
-
-                top: 0.1px; /* Adjust the top position as needed */
-
-
-
-            }
-            hr.new1{
-                border: 1px solid purple;
-            }
-            .transflag {
-                position: relative;
-                top: -15px;
-                right: -595px;
-            }
-            .button {
-                display: inline-block;
-                padding: 10px 20px;
-                font-size: 16px;
-                color: #4d0a8c;
-                background-color: #b400fb;
-                border: none;
-                border-radius: 5px;
-                text-decoration: none;
-                cursor: pointer;
-                margin: 10px;
-                display: block;
-            }
-
-            .hidden {
-                display: none;
-            }
-        </style>
         <audio src="media/Little%20Fluffy%20Victories.mp3" controls>
         </audio>
         <p>Little Fluffy Victories-Tresenella</p>
@@ -91,6 +22,7 @@
     <button class="button" onclick="showSection('Menu')">Menu</button>
     <button class="button" onclick="showSection('Gallery')">Gallery</button>
     <button class="button" onclick="showSection('Show')">Rain, the animated series</button>
+    <button class="button" onclick="showSection('Author')">About the author</button>
     <div id="content">
         <img src="media/transflag.jpeg" class="transflag" height="150">
     </div>
@@ -113,7 +45,8 @@
             About rain</h2>
             <p>Rain is a slice-of-life lgbtq+ webcomic written by trans author Jocelyn Samara DiDomenick. It was published in november 2010(Surprise, surprise, trans people existed back then!). The graphic novel is about the life of a teenage trans girl called Rain Flaherty who attends a private catholic high school and interacts with her friends and family around her as they come to terms with her new self. It has 44 chapters in total.</p>
             <!-- Bio template: (S)he received a blah in Y from place in 20XX. (s)he was the "blah" and was one of the authors of the nationwide expansion of Corp Inc. Recently, (s)he has been working on Z. -->
-            <a href="https://rain.thecomicseries.com/">Click on this link to read rain!</a>
+            <p>You can read the webcomic on the official webpage here!</p>
+            <iframe src="https://rain.thecomicseries.com/comics/1#content-start" width="400" height="400"></iframe>
 
             <hr class="new1">
             <h2>Characters</h2>
@@ -179,81 +112,6 @@
         </div>
 
         <div id="Gallery" class="section hidden">
-            <style>
-                div.gallery {
-                    margin: 5px;
-                    border: 1px solid #ccc;
-                    float: left;
-                    width: 180px;
-                }
-
-                div.gallery:hover {
-                    border: 1px solid #777;
-                }
-
-                div.gallery img {
-                    width: 100%;
-                    height: auto;
-                }
-
-                div.desc {
-                    padding: 15px;
-                    text-align: center;
-                }
-
-                div.spoiler {
-                    overflow: hidden;
-                    position: relative;
-                    margin: 0;
-                    padding: 0;
-                }
-
-                div.spoiler img {
-                    vertical-align: bottom;
-                    filter: blur(20px) grayscale(100%);
-                    transition: 0.3s;
-                }
-
-                .spoiler-button {
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    height: 3rem;
-                    line-height: 3rem;
-                    width: 50%;
-                    padding: 0 1rem;
-                    font-size: 1rem;
-                    margin: auto;
-                    background-color: rgba(0,0,0,0.8);
-                    color: #FFF;
-                    text-align: center;
-                    border-radius: 1rem;
-                    cursor: pointer;
-                }
-
-                @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-                    .spoiler-button {
-                        display: none;
-                    }
-                }
-                div.spoiler input {
-                    width: 0;
-                    height: 0;
-                }
-                div.spoiler input:checked ~ img {
-                    filter: none;
-                }
-                div.spoiler input:checked, div.spoiler input:checked ~ label {
-                    display: none;
-                }
-                @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-                    div.spoiler input, .spoiler-button {
-                        display: none;
-                    }
-                }
-            </style>
             </head>
             <body>
             <h1>Photo Gallery</h1>
@@ -298,14 +156,21 @@
         <div id="Show" class="section hidden">
             <h1>Rain, the animated series</h1>
             <hr class="new1">
-            <video width="320" height="240" controls>
-                <source src="media/Rain%20-%20Just%20A%20Picture.mp4" type="video/mp4">
-            </video>
+            <iframe width="420" height="315"
+                    src="media/Rain%20-%20Just%20A%20Picture.mp4">
+            </iframe>
             <p>Just a picture</p>
-            <video width="320" height="240" controls>
-                <source src="media/Rain%20-%20MBMSaM%20Out%20of%20Context.mp4" type="video/mp4">
-            </video>
+            <iframe width="420" height="315"
+                    src="media/Rain%20-%20MBMSaM%20Out%20of%20Context.mp4">
+            </iframe>
             <p>Rain out of context</p>
+        </div>
+
+        <div id="Author" class="section hidden">
+            <h1>Jocelyn Samara DiDomenick</h1>
+            <img src="media/Jocelyn2.webp" alt="authorofrain" height="150">
+            <hr class="new1">
+            <p>Jocelyn Samara DiDomenick is a transgender woman and is the author of the 2010 webcomic rain. Jocelyn likes drawing, writing, gaming (especially RPGs and retro games), anime (her tastes are 'pretty eclectic') and heavy metal (or more particularly, epic/symphonic metal).</p>
         </div>
 
         </main>
@@ -314,18 +179,7 @@
             <!-- <div id="footer"></div> -->
 
             <!-- BODY END -->
-            <script>
-            function showSection(sectionId) {
-                // Get all sections
-                const sections = document.querySelectorAll('.section');
-                // Hide all sections
-                sections.forEach(section => {
-                    section.classList.add('hidden');
-                });
-                // Show the target section
-                const targetSection = document.getElementById(sectionId);
-                targetSection.classList.remove('hidden');
-            }
+            <script src="main.js">
             </script>
         </body>
 </html>

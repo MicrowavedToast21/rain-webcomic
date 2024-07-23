@@ -1,0 +1,156 @@
+ /* or you could first try add internal CSS here */
+body{
+    background:linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    color: purple;
+
+
+}
+.moved-text {
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    background: rgba(174, 16, 220, 0.15);
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+
+}
+h1 {
+    font-size: 70px;
+}
+#image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.moved-text2 {
+
+    margin-left: 300px; /* Adjust the margin as needed */
+
+    padding-top: 30px; /* Adjust the padding as needed */
+
+    position: relative; /* Allows for more positioning options */
+
+    top: 0.1px; /* Adjust the top position as needed */
+
+
+
+}
+hr.new1{
+    border: 1px solid purple;
+}
+.transflag {
+    position: relative;
+    top: -15px;
+    right: -595px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #4d0a8c;
+    background-color: #b400fb;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+  div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+
+ div.gallery:hover {
+     border: 1px solid #777;
+ }
+
+ div.gallery img {
+     width: 100%;
+     height: auto;
+ }
+
+ div.desc {
+     padding: 15px;
+     text-align: center;
+ }
+
+ div.spoiler {
+     overflow: hidden;
+     position: relative;
+     margin: 0;
+     padding: 0;
+ }
+
+ div.spoiler img {
+     vertical-align: bottom;
+     filter: blur(20px) grayscale(100%);
+     transition: 0.3s;
+ }
+
+ .spoiler-button {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 3rem;
+     line-height: 3rem;
+     width: 50%;
+     padding: 0 1rem;
+     font-size: 1rem;
+     margin: auto;
+     background-color: rgba(0,0,0,0.8);
+     color: #FFF;
+     text-align: center;
+     border-radius: 1rem;
+     cursor: pointer;
+ }
+
+ @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     .spoiler-button {
+         display: none;
+     }
+ }
+ div.spoiler input {
+     width: 0;
+     height: 0;
+ }
+ div.spoiler input:checked ~ img {
+     filter: none;
+ }
+ div.spoiler input:checked, div.spoiler input:checked ~ label {
+     display: none;
+ }
+ @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     div.spoiler input, .spoiler-button {
+         display: none;
+     }
+ }
+ header {
+     background-color: #871dcd;
+     color: white;
+     text-align: center;
+     padding: 2em;
+ }
+ a:visited {
+     color: blue;
+ }
+
+ a:hover {
+     color: purple;
+ }
+
+ a:active {
+     color: purple;
+ }
