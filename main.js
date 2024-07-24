@@ -1,3 +1,4 @@
+
 function showSection(sectionId) {
     // Get all sections
     const sections = document.querySelectorAll('.section');
@@ -9,3 +10,5 @@ function showSection(sectionId) {
     const targetSection = document.getElementById(sectionId);
     targetSection.classList.remove('hidden');
 }
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
