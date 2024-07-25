@@ -5,14 +5,8 @@ body{
 }
 .moved-text {
 
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-    background: rgba(174, 16, 220, 0.15);
-    padding: 20px;
-    width: 175px;
-    height: 100px;
+    text-align: center;
+    color: palevioletred;
 
 }
 h1 {
@@ -56,7 +50,6 @@ hr.new1{
     text-decoration: none;
     cursor: pointer;
     margin: 10px;
-    display: block;
 }
 
 .hidden {
@@ -136,7 +129,7 @@ hr.new1{
      }
  }
  header {
-     background-color: #871dcd;
+     background-color: #ceb1e3;
      color: white;
      text-align: center;
      padding: 2em;
@@ -235,7 +228,7 @@ hr.new1{
 
  /* Number text (1/3 etc) */
  .numbertext {
-     color: #f2f2f2;
+     color: #ffffff;
      font-size: 12px;
      padding: 8px 12px;
      position: absolute;
