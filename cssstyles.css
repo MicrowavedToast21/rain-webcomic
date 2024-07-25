@@ -173,6 +173,8 @@ hr.new1{
      top: 8px;
      right: 16px;
      font-size: 18px;
+     color: palevioletred;
+     background-color: powderblue;
  }
  * {
      box-sizing: border-box;
